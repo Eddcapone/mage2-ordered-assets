@@ -36,7 +36,7 @@ class PropertyGroup
             if(isset($aProperties['order'])) {
                 $oFile->setOrder((int)$aProperties['order']);
             } else {
-                $oFile->setOrder(1);
+                $oFile->setOrder(10);
             }
 
             $aRealResult[$sAssetPath] = $oFile;
